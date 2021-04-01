@@ -1,0 +1,13 @@
+<div id="root"></div>
+<script>
+  const root = document.getElementById('root');
+
+  console.time();
+  for (let i = 0; i <= 1e5; i++) {
+    const child = document.createElement('div');
+    root.appendChild(child);
+    // debugger;
+    child.innerText = i;
+  }
+  console.timeEnd();
+</script>

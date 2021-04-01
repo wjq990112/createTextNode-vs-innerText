@@ -1,0 +1,17 @@
+{
+  "name": "createTextNode-vs-innerText",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wjq990112/createTextNode-vs-innerText.git",
+  "author": "wjq990112 <1163585385@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "jsdom:dom": "node jsdom/dom",
+    "jsdom:non-dom": "node jsdom/non-dom",
+    "jsdom:createTextNode": "node jsdom/createTextNode",
+    "jsdom:innerText": "node jsdom/innerText"
+  },
+  "dependencies": {
+    "jsdom": "^16.5.2"
+  }
+}
